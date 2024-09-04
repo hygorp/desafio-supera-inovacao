@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a355816f-aae1-44d0-9890-2767fc7bddf6" name="Changes" comment="" />
+    <list default="true" id="d35fae62-d5fd-4eeb-81c8-55becb8efd0f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hygorp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/hygorp/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desafio01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Desafio01/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,43 +25,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
-}</component>
-  <component name="ProjectId" id="2lbuMJIU613i1I2wvH6kfxgMnpd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2lcOftbTboiXCYIost72nQ9f1GW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Main.executor": "Run",
-    "JUnit.MainTest.executor": "Run",
-    "JUnit.MainTest.shouldReturn1000.executor": "Run",
-    "JUnit.MainTest.shouldReturn1500.executor": "Run",
-    "JUnit.MainTest.shouldReturnInvalidFormatError.executor": "Run",
-    "JUnit.MainTest.shouldReturnMarromPretoPretoDourado.executor": "Run",
-    "JUnit.MainTest.shouldReturnMarromPretoVermelhoDourado.executor": "Run",
+    "JUnit.MainTest.shouldReturnMORTO.executor": "Run",
+    "JUnit.MainTest.shouldReturnRICO.executor": "Run",
+    "JUnit.MainTest.shouldThrowsException.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/hygor/Desktop/DesafiosSuperaInovacao/Desafio01/src/main/java/org/hygorp/Main.java",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "onboarding.tips.debug.path": "C:/Users/hygor/Desktop/DesafiosSuperaInovacao/Desafio02/src/main/java/org/hygorp/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MainTest">
+  <component name="RunManager" selected="JUnit.MainTest.shouldThrowsException">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.hygorp.Main" />
-      <module name="Desafio01" />
+      <module name="Desafio02" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.hygorp.*" />
@@ -67,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Desafio01" />
+    <configuration name="MainTest.shouldReturnMORTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Desafio02" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.hygorp.*" />
@@ -77,29 +76,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.hygorp" />
       <option name="MAIN_CLASS_NAME" value="org.hygorp.MainTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.shouldReturnInvalidFormatError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Desafio01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.hygorp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.hygorp" />
-      <option name="MAIN_CLASS_NAME" value="org.hygorp.MainTest" />
-      <option name="METHOD_NAME" value="shouldReturnInvalidFormatError" />
+      <option name="METHOD_NAME" value="shouldReturnMORTO" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.shouldReturnMarromPretoPretoDourado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Desafio01" />
+    <configuration name="MainTest.shouldReturnRICO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Desafio02" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.hygorp.*" />
@@ -108,14 +92,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.hygorp" />
       <option name="MAIN_CLASS_NAME" value="org.hygorp.MainTest" />
-      <option name="METHOD_NAME" value="shouldReturnMarromPretoPretoDourado" />
+      <option name="METHOD_NAME" value="shouldReturnRICO" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.shouldReturnMarromPretoVermelhoDourado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Desafio01" />
+    <configuration name="MainTest.shouldThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Desafio02" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.hygorp.*" />
@@ -124,7 +108,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.hygorp" />
       <option name="MAIN_CLASS_NAME" value="org.hygorp.MainTest" />
-      <option name="METHOD_NAME" value="shouldReturnMarromPretoVermelhoDourado" />
+      <option name="METHOD_NAME" value="shouldThrowsException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +116,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.shouldReturnInvalidFormatError" />
+        <item itemvalue="JUnit.MainTest.shouldThrowsException" />
+        <item itemvalue="JUnit.MainTest.shouldReturnMORTO" />
+        <item itemvalue="JUnit.MainTest.shouldReturnRICO" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.MainTest.shouldReturnMarromPretoVermelhoDourado" />
-        <item itemvalue="JUnit.MainTest.shouldReturnMarromPretoPretoDourado" />
       </list>
     </recent_temporary>
   </component>
@@ -151,33 +134,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a355816f-aae1-44d0-9890-2767fc7bddf6" name="Changes" comment="" />
-      <created>1725461049642</created>
+      <changelist id="d35fae62-d5fd-4eeb-81c8-55becb8efd0f" name="Changes" comment="" />
+      <created>1725476007889</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1725461049642</updated>
-      <workItem from="1725461050705" duration="13156000" />
-      <workItem from="1725475382609" duration="618000" />
+      <updated>1725476007889</updated>
+      <workItem from="1725476008919" duration="2897000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
   </component>
 </project>
