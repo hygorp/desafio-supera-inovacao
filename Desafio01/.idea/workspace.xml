@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a355816f-aae1-44d0-9890-2767fc7bddf6" name="Changes" comment="" />
+    <list default="true" id="a355816f-aae1-44d0-9890-2767fc7bddf6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hygorp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hygorp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/hygorp/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/hygorp/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/hygorp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/hygorp/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2lbuMJIU613i1I2wvH6kfxgMnpd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,7 +46,7 @@
     "JUnit.MainTest.shouldReturnMarromPretoVermelhoDourado.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -49,10 +55,11 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/hygor/Desktop/DesafiosSuperaInovacao/Desafio01/src/main/java/org/hygorp/Main.java",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MainTest.shouldReturnInvalidFormatError">
+  <component name="RunManager" selected="JUnit.MainTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.hygorp.Main" />
       <module name="Desafio01" />
@@ -131,9 +138,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest" />
         <item itemvalue="JUnit.MainTest.shouldReturnInvalidFormatError" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.MainTest" />
         <item itemvalue="JUnit.MainTest.shouldReturnMarromPretoVermelhoDourado" />
         <item itemvalue="JUnit.MainTest.shouldReturnMarromPretoPretoDourado" />
       </list>
@@ -156,6 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1725461049642</updated>
       <workItem from="1725461050705" duration="13156000" />
+      <workItem from="1725475382609" duration="500000" />
     </task>
     <servers />
   </component>
@@ -172,5 +180,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>

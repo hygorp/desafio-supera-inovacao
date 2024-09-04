@@ -27,7 +27,7 @@ public class MainTest {
     @Test
     @DisplayName("should return exception")
     void shouldReturnInvalidFormatError() {
-        Assertions.assertThrows(IllegalArgumentException.class, () -> Main.decode("1.7 ohms"));
+        Assertions.assertThrows(IllegalArgumentException.class, () -> Main.decode("1.4 ohms"));
         Assertions.assertThrows(IllegalArgumentException.class, () -> Main.decode("1/7k ohms"));
         Assertions.assertThrows(IllegalArgumentException.class, () -> Main.decode("1/7m ohms"));
     }

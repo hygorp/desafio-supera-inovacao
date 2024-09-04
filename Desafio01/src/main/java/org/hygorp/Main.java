@@ -1,13 +1,10 @@
 package org.hygorp;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
     public static String decode(String input) {
-        if (!input.matches("\\d+(\\.\\d+)?[kM]?")) {
-            throw new IllegalArgumentException("Formato inválido: " + input);
-        }
-
         String ohms = classifyOhmAmount(input);
         return classifyColors(ohms);
     }
@@ -32,20 +29,26 @@ public class Main {
     }
 
     public static String classifyColors(String input) {
-        String[] colors = {"preto", "marrom", "vermelho", "laranja", "amarelo", "verde", "azul", "violeta", "cinza", "branco"};
+        try {
+            String[] colors = {"preto", "marrom", "vermelho", "laranja", "amarelo", "verde", "azul", "violeta", "cinza", "branco"};
 
-        char[] sequence = input.toCharArray();
+            char[] sequence = input.toCharArray();
 
-        return colors[Integer.parseInt(String.valueOf(sequence[0]))] +
-                " " +
-                colors[Integer.parseInt(String.valueOf(sequence[1]))] +
-                " " +
-                colors[sequence.length-2] +
-                " " +
-                "dourado";
+            return colors[Integer.parseInt(String.valueOf(sequence[0]))] +
+                    " " +
+                    colors[Integer.parseInt(String.valueOf(sequence[1]))] +
+                    " " +
+                    colors[sequence.length - 2] +
+                    " " +
+                    "dourado";
+        } catch (IndexOutOfBoundsException exception) {
+            throw new IllegalArgumentException("Valor inválido: " + input);
+        }
     }
 
     public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Entrada: ");
         String input = sc.nextLine();
