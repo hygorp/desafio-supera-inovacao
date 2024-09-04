@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35fae62-d5fd-4eeb-81c8-55becb8efd0f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hygorp/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/hygorp/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desafio03/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desafio03/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desafio03/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desafio03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desafio03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desafio03/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desafio03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desafio03/src/main/java/org/hygorp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desafio03/src/test/java/org/hygorp/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desafio01/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Desafio01/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Desafio01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Desafio01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desafio01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Desafio01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,37 +36,38 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2lcOftbTboiXCYIost72nQ9f1GW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Main.executor": "Run",
-    "JUnit.MainTest.shouldReturnMORTO.executor": "Run",
-    "JUnit.MainTest.shouldReturnRICO.executor": "Run",
-    "JUnit.MainTest.shouldThrowsException.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/hygor/Desktop/DesafiosSuperaInovacao/Desafio02/src/main/java/org/hygorp/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.shouldReturnMORTO.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.shouldReturnRICO.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainTest.shouldThrowsException.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/hygor/Desktop/DesafiosSuperaInovacao/Desafio02/src/main/java/org/hygorp/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.MainTest.shouldThrowsException">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.hygorp.Main" />
-      <module name="Desafio02" />
+      <module name="2_desafio_flores_de_samambaia" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.hygorp.*" />
@@ -67,7 +79,7 @@
       </method>
     </configuration>
     <configuration name="MainTest.shouldReturnMORTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Desafio02" />
+      <module name="2_desafio_flores_de_samambaia" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.hygorp.*" />
@@ -83,7 +95,7 @@
       </method>
     </configuration>
     <configuration name="MainTest.shouldReturnRICO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Desafio02" />
+      <module name="2_desafio_flores_de_samambaia" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.hygorp.*" />
@@ -99,7 +111,7 @@
       </method>
     </configuration>
     <configuration name="MainTest.shouldThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Desafio02" />
+      <module name="2_desafio_flores_de_samambaia" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.hygorp.*" />
@@ -110,6 +122,19 @@
       <option name="MAIN_CLASS_NAME" value="org.hygorp.MainTest" />
       <option name="METHOD_NAME" value="shouldThrowsException" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="2_desafio_flores_de_samambaia" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="2_desafio_flores_de_samambaia" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,7 +164,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725476007889</updated>
-      <workItem from="1725476008919" duration="2897000" />
+      <workItem from="1725476008919" duration="2974000" />
+      <workItem from="1725484362047" duration="17000" />
+      <workItem from="1725484384913" duration="27000" />
+      <workItem from="1725484458995" duration="28000" />
     </task>
     <servers />
   </component>

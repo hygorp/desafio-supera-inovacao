@@ -6,11 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Desafio02" />
+        <module name="3_desafio_snail" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="2_desafio_flores_de_samambaia" target="21" />
-    </bytecodeTargetLevel>
   </component>
 </project>
